@@ -1,0 +1,34 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    color: rgb(219, 82, 231);
+}
+.container{
+margin: auto;
+height: 677px;
+background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.copa-text{
+margin-left: 70px;
+font-size: 50px;
+font-weight: 700;
+color: white;    
+}
+.copa-img{
+    margin: 40px;
+}
+
+.copa-img:hover{
+transform : translate(50px, 50px) scale (0.6) rotate(45deg);
+transition: width .5s, height 1s, transfrom 4s;
+
+}
+.copa-img img{
+    width: 560px;
+    height: 430px;
+}
